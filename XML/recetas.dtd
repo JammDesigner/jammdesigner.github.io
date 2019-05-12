@@ -1,0 +1,33 @@
+<!ELEMENT recetas (receta)>
+<!ATTLIST recetas
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT receta (nombre,foto,preparacion+,nota)>
+<!ATTLIST receta
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT nombre (#PCDATA)>
+<!ATTLIST nombre
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT foto EMPTY>
+<!ATTLIST foto
+  xmlns CDATA #FIXED ''
+  ruta CDATA #REQUIRED>
+
+<!ELEMENT preparacion (ingrediente+,paso?)>
+<!ATTLIST preparacion
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT nota EMPTY>
+<!ATTLIST nota
+  xmlns CDATA #FIXED ''
+  info CDATA #REQUIRED>
+
+<!ELEMENT ingrediente (#PCDATA)>
+<!ATTLIST ingrediente
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT paso (#PCDATA)>
+<!ATTLIST paso
+  xmlns CDATA #FIXED ''>

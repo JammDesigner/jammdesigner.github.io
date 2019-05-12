@@ -1,0 +1,238 @@
+/* Responsive 320px */
+
+@media(min-width:320px) {
+	header h1 {
+		font-size: 25px;
+    }
+    .banner_txt {
+	    display: none;
+    }
+	
+	.receta_chef   {
+        display: none;
+	}
+    
+    .opiniones_columna {
+		display: none;
+	}
+    .footer_columna {
+	    width: 100%;
+    }
+    .footer_columna ul li   {
+        font-size: 13px;
+    }
+    .footer ul li p	{
+	    font-size: 13px;
+    }
+}
+
+/* Responsive 480px */
+
+@media(min-width:480px) {
+	.logo {
+		font-size: 35px;
+	}
+	.banner_titulo {
+		font-size: 30px;
+		margin: 5px 0;
+	}
+	.banner_txt {
+		display: none;
+	}
+    .banner .contenedor {
+	    position: absolute;
+	    top: 73%;
+    }    
+	.info, .negocios {
+		display: flex;
+		justify-content: space-between;
+		margin-top: -90px;
+	}
+	.info_columna {
+		width: 32%;
+	}
+	.info_titulo {
+		font-size: 30px;
+		margin: 5px 0;
+	}
+	.section_titulo {
+		width: 100%;
+	}
+	.negocios {
+		flex-wrap: wrap;
+		margin-top: 0;
+	}
+	.negocios_columna {
+		width: 49%;
+	}
+	.social [class^="icon-"] {
+		margin: 0 10px;
+	}
+	.opiniones_columna {
+		width: 49%;
+	}
+    .footer_columna {
+        width: 50%;
+    }   
+    .footer ul li p	{
+ 	    font-size: 12px;
+    }
+    .footer_columna ul li   {
+        font-size: 12px;
+    }
+}
+
+/* Responsive 768px */
+
+@media(min-width:768px) {  
+    .banner_titulo {
+        font-size: 50px;
+    }
+    .banner_txt {
+		display: block;
+	}
+    .negocios_titulo {
+        font-size: 40px;
+    }
+    .banner .contenedor {
+	    position: absolute;
+	    top: 75%;
+    }
+    .opiniones_columna    {
+        display: block;
+        width: 55%
+    }
+    .proyectos_columna    {
+        width: 45%;
+    }
+    .footer_columna {
+        width: 50%;
+    }
+    .footer ul li p	{
+ 	    font-size: 15px;
+    }
+    .footer_columna ul li   {
+        font-size: 15px;
+    }
+}
+
+/* Responsive 1024px */
+
+@media(min-width:1024px) {
+    .contenedor {
+        width: 1000px;
+    }
+    .section_titulo {
+        font-size: 50px;
+        margin: 30px 0;
+    }
+    .nav {
+        position: static;
+        width: auto;
+    }
+    .menu {
+        display: flex;
+    }
+    .logo {
+        font-size: 30px;
+    }
+
+    .icon-menu {
+        display: none;
+    }
+    .menu_link {
+        background: none;
+        font-size: 20px;
+    }
+    .select {
+        color: #fff;
+        background: #357AA1;
+    }
+    .banner_titulo {
+        font-size: 60px;
+    }
+    .banner_txt {
+        font-size: 25px;
+    }
+    .banner .contenedor {
+	    position: absolute;
+	    top: 77%;
+    }
+    .info {
+        margin-top: -120px;
+    }
+    .info_columna {
+        padding: 30px;
+    }
+    .info_titulo {
+        font-size: 40px;
+        text-align: center;
+    }
+    .negocios_descripcion {
+        padding: 10px;
+    }
+    .negocios_titulo {
+        font-size: 50px;
+    }
+    .negocios_txt {
+        font-size: 20px;
+    }
+    .receta_chef   {
+        display: block;
+    }
+    .negocios_columna {
+        width: 30%;
+    }
+    .opiniones_columna    {
+        display: block;
+        width: 45%
+    }
+    .proyectos_columna    {
+        width: 45%;
+    }
+    .footer_columna {
+        width: 50%;
+    }
+    .footer ul li p	{
+ 	    font-size: 20px;
+    }
+    .footer_columna ul li   {
+        font-size: 20px;
+    }
+}
+
+/* Responsive 1280px */
+
+@media(min-width:1280px) {
+    .contenedor {
+        width: 1200px;
+    }
+    .logo {
+        font-size: 40px;
+    }
+    .banner .contenedor {
+        top: 67%;
+    }
+    .info {
+        margin-top: -220px;
+    }
+    .opiniones_columna {
+        width: 30%;
+    }
+    .negocios_columna {
+        width: 30%;
+    }
+    .opiniones_columna    {
+        display: block;
+        width: 40%
+    }
+    .footer_columna {
+        width: 25%;
+    }
+    .footer ul li p	{
+ 	    font-size: 15px;
+    }
+    .footer_columna ul li   {
+        font-size: 15px;
+    }
+}

@@ -1,0 +1,141 @@
+/* Sección Ingredientes de Negocios */
+
+.negocios_columna {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.negocios_descripcion {
+	position: absolute;
+	top: 0;
+	left: 0;
+	color: #fff;
+	background: rgba(0,0,0,0.5);
+	width: 60%;
+	height: 100%;
+	padding: 10px;
+}
+
+.negocios_titulo {
+  font-size: 25px;
+  margin: 5px 0;
+}
+
+/* Sección Receta del Chef desde XML */
+
+.receta    {
+	height: 550px;
+	background: #5D5D5D;
+	justify-content: center;
+	overflow-x:auto;
+	height: 1000px;
+}
+
+.receta_video    {
+    width: 50%;
+    margin: auto;
+    position: relative;
+    padding-bottom: 35%;
+    
+}
+
+.receta_video iframe {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+}
+
+.receta img {
+	width: 300px;
+	margin: auto;
+}
+
+.receta .caja_receta    {
+	width: 70%;
+	margin: auto;
+	padding: 20px;
+}
+
+.receta table {
+	border-collapse: collapse;
+	border-spacing: 0;
+	width: 100%;
+	border: 1px solid #ddd;
+	background: #fff;
+	border-radius: 1em;
+	overflow: hidden;
+}
+
+th, td {
+	text-align: center;
+	padding: 8px;
+}
+
+/* Sección Opiniones y Proyectos */
+
+.opiniones_columna {
+    position: relative;
+    margin-bottom: 30px;
+}
+.opiniones_columna ul li {
+    background: rgba(0,0,0,0.5);
+    border-radius: 10px;
+    margin: 10px;
+}
+.opiniones {
+	display: flex;
+	justify-content: space-between;
+	margin-top: -90px;
+	flex-wrap: wrap;
+	margin-top: 0;
+	padding: 20px;
+}
+
+.opiniones ul li {
+	list-style: none;
+	padding: 20px;
+}
+
+.proyectos	{
+	position: relative;
+	width: 300px;
+	height: 200px;
+	float: left;
+	margin: 4px;
+	background-size: 100%;
+	background-position: center;
+	transition: 0.5s;
+}
+
+.proyectos:hover	{
+	background-size: 110%;
+}
+
+.proyectos:after	{
+	position: absolute;
+	top: 80%;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	white-space: pre-wrap;
+	overflow: hidden;
+	background-color: rgba(0,0,0,0.3);
+	color: #fff;
+	padding: 0 8px;
+	content:attr(data-text);
+	transition: 0.5s;
+}
+
+.proyectos:hover:after	{
+	top: 0;
+	padding: 8px;
+	background-color: rgba(0,0,0,0.6);
+}
+
+.proyectos:first-line	{
+	color: #fff;
+	font-weight: bold;
+	font-size: 1.5em;
+}

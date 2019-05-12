@@ -1,0 +1,24 @@
+.header {
+	width: 100%;
+	height: 60px;
+	background: #fff;
+	color: #357AA1;
+	position: fixed; /* Mantener la cabecera fija con el scroll*/
+	top: 0;	/* Posición de la cabecera */
+	left: 0;	/* Posición de la cabecera */
+	z-index: 100;	/* Para que la cabecera siempre este por encima de los demas elementos */
+}
+
+.header .contenedor {
+	display: flex;
+	justify-content: space-between;
+}
+
+.logo, .icon-menu {
+	margin: 5px;
+	color: #357AA1;
+}
+
+.icon-menu    {
+    font-size: 30px;
+}

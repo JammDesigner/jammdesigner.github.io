@@ -1,0 +1,116 @@
+/* Sección historias y Proyectos */
+
+.historias_columna {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+
+.historias_columna ul li {
+    background: rgba(0,0,0,0.5);
+    border-radius: 10px;
+    margin: 10px;
+}
+.historias {
+	display: flex;
+	justify-content: space-between;
+	margin-top: -90px;
+	flex-wrap: wrap;
+	margin-top: 0;
+	padding: 20px;
+}
+
+.historias ul li {
+	list-style: none;
+	padding: 20px;
+}
+@media(min-width:1280px) {
+    .negocios_columna {
+        width: 30%;
+    }
+    .historias_columna    {
+        display: block;
+        width: 45%;
+    }
+    .historias_columna img  {
+        width: 500px;
+    }
+}
+
+.histo_columna {
+  background: #357AA1;
+  color: #fff;
+  padding: 15px;
+  margin-bottom: 30px;
+}
+
+@media(min-width:480px) {
+	.histo, .negocios {
+		display: flex;
+		justify-content: space-between;
+		margin-top: -90px;
+	}
+	.histo_columna {
+		width: 32%;
+	}
+	.histo_titulo {
+		font-size: 30px;
+		margin: 5px 0;
+	}
+
+}
+
+@media(min-width:1024px) {
+    .histo {
+        margin-top: -120px;
+    }
+    .histo_columna {
+        padding: 30px;
+    }
+    .histo_titulo {
+        font-size: 40px;
+        text-align: center;
+    }
+}
+
+@media(min-width:1280px) {
+    .histo {
+        margin-top: 0px;
+    }
+}
+
+#info   {
+    background: #5EA32F;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+#info .contenedor    {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.info-nosotros   {
+    margin: 20px;
+}
+
+.info-nosotros   img {
+    width: 200px;
+    border-radius: 50%;
+    border: 7px solid #fff;
+}
+
+@media (min-width:480px){
+    .info-nosotros   {
+        width: 40%;
+    }
+}
+
+@media (min-width:1024px){
+        .info-nosotros   {
+        width: auto;
+    }
+}
+

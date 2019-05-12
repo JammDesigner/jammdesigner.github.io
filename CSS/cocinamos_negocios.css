@@ -1,0 +1,59 @@
+.cocinamos_negocios_columna {
+    position: relative;
+    margin-bottom: 30px;
+}
+.cocinamos_negocios_columna ul li {
+    background: rgba(0,0,0,0.5);
+    border-radius: 10px;
+    margin: 10px;
+}
+.cocinamos_negocios {
+	display: flex;
+	justify-content: space-between;
+	margin-top: -90px;
+	flex-wrap: wrap;
+	margin-top: 0;
+	padding: 20px;
+}
+
+.cocinamos_negocios ul li {
+	list-style: none;
+	padding: 20px;
+}
+
+/* Responsive 480px */
+
+@media(min-width:480px) {
+	.cocinamos_negocios_columna {
+		width: 49%;
+	}
+}
+
+/* Responsive 768px */
+
+@media(min-width:768px) {  
+    .cocinamos_negocios_columna    {
+        display: block;
+        width: 55%;
+    }
+}
+
+/* Responsive 1024px */
+
+@media(min-width:1024px) {
+    .cocinamos_negocios_columna    {
+        display: block;
+        width: 45%;
+    }
+}
+
+/* Responsive 1280px */
+
+@media(min-width:1280px) {
+    .cocinamos_negocios_columna    {
+        display: block;
+        width: 45%;
+    }
+
+}
+
