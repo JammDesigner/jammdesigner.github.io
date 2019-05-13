@@ -2,8 +2,8 @@ window.onload = function () {
     displayResult();
 }
 function displayResult() {
-    xml = loadXMLDoc("../XML/contacto.xml");
-    xsl = loadXMLDoc("../XML/contacto.xslt");
+    xml = loadXMLDoc("https://github.com/JammDesigner/jammdesigner.github.io/blob/master/XML/contacto.xml");
+    xsl = loadXMLDoc("https://github.com/JammDesigner/jammdesigner.github.io/blob/master/XML/contacto.xslt");
     // code for IE
     if (window.ActiveXObject || xhttp.responseType == "msxml-document") {
         ex = xml.transformNode(xsl);
