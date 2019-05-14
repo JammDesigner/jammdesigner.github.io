@@ -27,13 +27,13 @@
 	color: #357AA1;
 }
 
-.menu_link:hover, .select {
+.menu_link:hover {
 	background: #357AA1;
 	color: #fff;
 }
 
 
-.menu_link:hover, .select {
+.select {
 	background: #5EA32F;
 	color: #fff;
 }
