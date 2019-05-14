@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE recetas SYSTEM "contacto.dtd">
-<?xml-stylesheet type="text/xsl" href="contacto.xslt"?>
+<?xml-stylesheet type="text/xsl" href="contacto.xsl"?>
 <contacto>
   <direccion>Complejo Empresarial Atica. C/ Via de Dos Castillas N 33. Pozuelo de Alarcón, Madrid</direccion>
   <movil>+34 600 00 00 00</movil>
