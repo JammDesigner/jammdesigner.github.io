@@ -32,6 +32,12 @@
 	color: #fff;
 }
 
+
+.menu_link:hover, .select {
+	background: #5EA32F;
+	color: #fff;
+}
+
 .mostrar {
 	left: 0;
 }
