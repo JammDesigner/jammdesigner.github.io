@@ -23,6 +23,10 @@
       <td style="text-align:left"><xsl:value-of select="paso"/></td>
     </tr>
     </xsl:for-each>
+	  	<tr>
+		<th colspan="2"><video src="https://www.youtube.com/watch?v=N8GRKhTV44Y"></video></th>
+	</tr>
+
 
   </table>
 </body>
