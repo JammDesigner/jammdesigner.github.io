@@ -1,5 +1,5 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE recetas SYSTEM "contacto.dtd">
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE contacto SYSTEM "contacto.dtd">
 <?xml-stylesheet type="text/xsl" href="contacto.xsl"?>
 <contacto>
   <direccion>Complejo Empresarial Atica. C/ Via de Dos Castillas N 33. Pozuelo de Alarcón, Madrid</direccion>
@@ -8,3 +8,4 @@
   <email>upsolucionesgastronómicas@gmail.com</email>
   <web>https://www.upsolucionesgastronomicas.com</web>
 </contacto>
+
