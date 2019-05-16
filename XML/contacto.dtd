@@ -1,0 +1,24 @@
+
+<!ELEMENT contacto (direccion,movil,fijo,email,web)>
+<!ATTLIST contacto
+  value CDATA #FIXED ''>
+
+<!ELEMENT direccion (#PCDATA)>
+<!ATTLIST direccion
+  value CDATA #FIXED ''>
+
+<!ELEMENT movil (#PCDATA)>
+<!ATTLIST movil
+  value CDATA #FIXED ''>
+
+<!ELEMENT fijo (#PCDATA)>
+<!ATTLIST fijo
+  value CDATA #FIXED ''>
+
+<!ELEMENT email (#PCDATA)>
+<!ATTLIST email
+  value CDATA #FIXED ''>
+
+<!ELEMENT web (#PCDATA)>
+<!ATTLIST web
+  value CDATA #FIXED ''>
