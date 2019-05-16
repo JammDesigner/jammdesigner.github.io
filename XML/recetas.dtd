@@ -1,33 +1,31 @@
-<!ELEMENT recetas (receta)>
+<!ELEMENT recetas (receta)+>
 <!ATTLIST recetas
-  xmlns CDATA #FIXED ''>
+  value CDATA #FIXED>
 
-<!ELEMENT receta (nombre,foto,preparacion+,nota)>
+<!ELEMENT receta (imagen,nombre,valor,proteinas,hidratos,grasas)>
 <!ATTLIST receta
-  xmlns CDATA #FIXED ''>
+  value CDATA #FIXED>
+
+<!ELEMENT imagen (#PCDATA)>
+<!ATTLIST imagen
+  value CDATA #FIXED>
 
 <!ELEMENT nombre (#PCDATA)>
 <!ATTLIST nombre
-  xmlns CDATA #FIXED ''>
+  value CDATA #FIXED>
 
-<!ELEMENT foto EMPTY>
-<!ATTLIST foto
-  xmlns CDATA #FIXED ''
-  ruta CDATA #REQUIRED>
+<!ELEMENT valor (#PCDATA)>
+<!ATTLIST valor
+  value CDATA #FIXED>
 
-<!ELEMENT preparacion (ingrediente+,paso?)>
-<!ATTLIST preparacion
-  xmlns CDATA #FIXED ''>
+<!ELEMENT proteinas (#PCDATA)>
+<!ATTLIST proteinas
+  value CDATA #FIXED>
 
-<!ELEMENT nota EMPTY>
-<!ATTLIST nota
-  xmlns CDATA #FIXED ''
-  info CDATA #REQUIRED>
+<!ELEMENT hidratos (#PCDATA)>
+<!ATTLIST hidratos
+  value CDATA #FIXED>
 
-<!ELEMENT ingrediente (#PCDATA)>
-<!ATTLIST ingrediente
-  xmlns CDATA #FIXED ''>
-
-<!ELEMENT paso (#PCDATA)>
-<!ATTLIST paso
-  xmlns CDATA #FIXED ''>
+<!ELEMENT grasas (#PCDATA)>
+<!ATTLIST grasas
+  value CDATA #FIXED>
