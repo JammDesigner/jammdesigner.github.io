@@ -1,26 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE recetas SYSTEM "recetas.dtd">
 <?xml-stylesheet type="text/xsl" href="recetas.xsl"?>
-<recetas>
-	<receta>
-		<nombre>Filetes de carne de res en reducción de vino tinto</nombre>
-		<foto ruta="../IMG/receta.jpg"></foto>
-		<preparacion>
-			<ingrediente>2 filetes mignon de res</ingrediente>
-			<paso>1. Salpimienta ambos lados de los filetes de res.</paso></preparacion>
-			<preparacion><ingrediente>Sal y pimienta recién molida al gusto</ingrediente>
-			<paso>2. Calienta un sartén de hierro a fuego alto, luego agrega el aceite. 
-			Coloca los filetes en el sartén y cocina durante 4 minutos por lado. Retira del sartén y desecha el aceite.</paso></preparacion>
-			<preparacion><ingrediente>1 cucharada de aceite</ingrediente>
-			<paso>3. Regresa el sartén al fuego. Añade el echalote y cocina, moviendo constantemente, hasta que se haya dorado ligeramente, aproximadamente 1 minuto. 
-			Vierte el vino y mezcla, raspando con la espátula el fondo del sartén para despegar los restos de carne. 
-			Reduce un poco el fuego, añade el vinagre balsámico, mezcla y cocina hasta que la salsa se haya reducido a la mitad.</paso></preparacion>
-			<preparacion><ingrediente>1/2 echalote, en rebanadas delgadas</ingrediente>
-			<paso>4. Regresa los filetes al sartén y cocina durante unos minutos más, volteando una vez. 
-			Coloca los filetes en dos platos tibios y baña con la reducción de vino tinto y balsámico. Sirve inmediatamente.</paso></preparacion>
-			<preparacion><ingrediente>1/4 taza de vinagre balsámico</ingrediente>
-			<ingrediente>1/4 taza de vino blanco seco</ingrediente>
-		</preparacion>
-		<nota info="Tiempo de cocción: 20min"/>
+
+<!DOCTYPE juegos SYSTEM "dtd/recetas.dtd">
+
+<recetas xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="schema/juegos.xsd">
+
+	<receta type="boardgame" id="1">
+		<imagen>https://haycosasmuynuestras.com/wp-content/uploads/2017/10/Codorniz-GRANDE.jpg</imagen>
+		<nombre>Codorniz escabechada</nombre>
+		<valor>458 kcal</valor>
+		<proteinas>40,1 g</proteinas>
+		<hidratos>4,4 g</hidratos>
+		<grasas>29,2 g</grasas>
 	</receta>
+
+	<receta type="boardgame" id="2">
+		<imagen>https://haycosasmuynuestras.com/wp-content/uploads/2017/10/Huevos-rotos-GRANDE.jpg</imagen>
+		<nombre>Huevos rotos con boletus y trufa</nombre>
+		<valor>442 kcal</valor>
+		<proteinas>17,9 g</proteinas>
+		<hidratos>15,8 g</hidratos>
+		<grasas>33,4 g</grasas>
+	</receta>
+
+	<receta type="boardgame" id="3">
+		<imagen>https://haycosasmuynuestras.com/wp-content/uploads/2017/09/rollo-GRANDE.jpg</imagen>
+		<nombre>Rollitos de lenguado</nombre>
+		<valor>538 kcal</valor>
+		<proteinas>54,1 g</proteinas>
+		<hidratos>19,5 g</hidratos>
+		<grasas>24,7 g</grasas>
+	</receta>
+
+	<receta type="boardgame" id="4">
+		<imagen>https://haycosasmuynuestras.com/wp-content/uploads/2017/04/Raviolis-GRANDE.jpg</imagen>
+		<nombre>Raviolis rellenos</nombre>
+		<valor>508 kcal</valor>
+		<proteinas>23,4 g</proteinas>
+		<hidratos>37,2 g</hidratos>
+		<grasas>28,1 g</grasas>
+				</receta>
+
 </recetas>
