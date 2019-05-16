@@ -117,9 +117,18 @@
 					<h2 class="section_titulo">Receta del chef</h2>
 					<div class="receta">
 						<div class="caja_receta">
-							<a href="XML/recetas.xml">Los más jugados</a>
-							<div><iframe src="XML/recetas.xml" frameborder="0" scroll="no" widht="auto" height="auto"></iframe></div>
-							<div class="receta_video"><iframe src="https://www.youtube.com/embed/N8GRKhTV44Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+							<div class="receta_video_xml"><iframe src="../XML/recetas.xml" frameborder="0" scrolling="no" width="800px" height="700px"></iframe></div>
+							<div style="text-align:center"> 
+                              					<button onclick="playPause()">Play/Pause</button> 
+                              					<button onclick="makeBig()">Big</button>
+                              					<button onclick="makeSmall()">Small</button>
+                              					<button onclick="makeNormal()">Normal</button>
+                             					 <br><br>
+                              					<video id="video1" width="420">
+                                				<source src="../MULTIMEDIA/receta.mp4" type="video/mp4">
+                                				Su navegador no soporta video HTML5. / Your browser does not support HTML5 video.
+                              					</video>
+                            </div> 
 						</div>
 					</div>
 				</section>
