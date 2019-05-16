@@ -5,7 +5,7 @@
 
 <recetas xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="schema/recetas.xsd">
 
-	<receta type="boardgame" id="1">
+	<receta>
 		<imagen>https://haycosasmuynuestras.com/wp-content/uploads/2017/10/Codorniz-GRANDE.jpg</imagen>
 		<nombre>Codorniz escabechada</nombre>
 		<valor>458 kcal</valor>
@@ -14,7 +14,7 @@
 		<grasas>29,2 g</grasas>
 	</receta>
 
-	<receta type="boardgame" id="2">
+	<receta>
 		<imagen>https://haycosasmuynuestras.com/wp-content/uploads/2017/10/Huevos-rotos-GRANDE.jpg</imagen>
 		<nombre>Huevos rotos con boletus y trufa</nombre>
 		<valor>442 kcal</valor>
@@ -23,7 +23,7 @@
 		<grasas>33,4 g</grasas>
 	</receta>
 
-	<receta type="boardgame" id="3">
+	<receta
 		<imagen>https://haycosasmuynuestras.com/wp-content/uploads/2017/09/rollo-GRANDE.jpg</imagen>
 		<nombre>Rollitos de lenguado</nombre>
 		<valor>538 kcal</valor>
@@ -32,13 +32,13 @@
 		<grasas>24,7 g</grasas>
 	</receta>
 
-	<receta type="boardgame" id="4">
+	<receta>
 		<imagen>https://haycosasmuynuestras.com/wp-content/uploads/2017/04/Raviolis-GRANDE.jpg</imagen>
 		<nombre>Raviolis rellenos</nombre>
 		<valor>508 kcal</valor>
 		<proteinas>23,4 g</proteinas>
 		<hidratos>37,2 g</hidratos>
 		<grasas>28,1 g</grasas>
-				</receta>
+	</receta>
 
 </recetas>
