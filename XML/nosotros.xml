@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="nosotros.xsl"?>
+
+<!DOCTYPE nosotros SYSTEM "nosotros.dtd">
+
+<nosotros>
+
+	<staff>		<imagen>https://raw.githubusercontent.com/JammDesigner/jammdesigner.github.io/master/IMG/maria_de_luque.jpg</imagen>
+		<nombre>María de Luque</nombre>
+		<profesion>Cocinero</profesion>
+		<descripcion>Joven y dinámica pondré en
+valor la imagen de tu negocio.</descripcion>
+	</staff>
+
+	<staff>		<imagen>https://raw.githubusercontent.com/JammDesigner/jammdesigner.github.io/master/IMG/mario_rubio.jpg</imagen>
+		<nombre>Mario Rubio</nombre>
+		<profesion>Cocinero</profesion>
+		<descripcion>Mis 20 años de experiencia en
+el sector de la emergencia me ayudan a priorizar.</descripcion>
+	</staff>
+
+	<staff>		<imagen>https://raw.githubusercontent.com/JammDesigner/jammdesigner.github.io/master/IMG/stephane_perez.jpg</imagen>
+		<nombre>Stephane Perez</nombre>
+        <profesion>Cocinero</profesion>
+		<descripcion>Experimentado cocinero
+al que le apasiona el trabajo bien hecho.</descripcion>
+	</staff>
+</nosotros>

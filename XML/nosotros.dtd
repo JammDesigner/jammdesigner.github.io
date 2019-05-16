@@ -1,0 +1,24 @@
+<!ELEMENT nosotros (staff)+>
+<!ATTLIST nosotros
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT staff (imagen,nombre,profesion,descripcion)>
+<!ATTLIST staff
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT imagen (#PCDATA)>
+<!ATTLIST imagen
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT nombre (#PCDATA)>
+<!ATTLIST nombre
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT profesion (#PCDATA)>
+<!ATTLIST profesion
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT descripcion (#PCDATA)>
+<!ATTLIST descripcion
+  xmlns CDATA #FIXED ''>
+
