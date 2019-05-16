@@ -9,13 +9,13 @@
  
     <xsl:for-each select="contacto">
     <div>
-        <p class="icon-location"><strong>DIRECCIÓN: </strong><xsl:value-of select="direccion"/></p>
-        <p class="icon-movil"><strong>MÓVIL: </strong><xsl:value-of 
+        <p class="icon-location"><xsl:value-of select="direccion"/></p>
+        <p class="icon-movil"><xsl:value-of 
         select="movil"/></p>
-         <p class="icon-fijo"><strong>TELÉFONO: </strong><xsl:value-of select="fijo"/></p>
-        <p class="icon-correo"><strong>E-MAIL: </strong><xsl:value-of 
+         <p class="icon-fijo"><xsl:value-of select="fijo"/></p>
+        <p class="icon-correo"><xsl:value-of 
         select="email"/></p>
-        <p class="icon-web"><strong>WEB: </strong><xsl:value-of select="web"/></p>
+        <p class="icon-web"><xsl:value-of select="web"/></p>
     </div>
 
     </xsl:for-each>
