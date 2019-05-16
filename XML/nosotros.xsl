@@ -6,7 +6,7 @@
 <html>
 
 <head>
-	
+<link rel="stylesheet" href="../CSS/estilos.css"/>	
 <link rel="stylesheet" href="../CSS/nuestra_historia.css"/>
 
 </head>
