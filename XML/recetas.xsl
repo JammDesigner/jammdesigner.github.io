@@ -2,11 +2,11 @@
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 <xsl:template match="/">
 <html> 
-<body>
+<body style="font-family:Verdana;font-size:12pt;color:#FFF">
   <table border="0">
     <xsl:for-each select="recetas/receta">
     <tr bgcolor="#357AA1">
-      <td style="text-align:center" colspan="2"><xsl:value-of select="nombre"/></td>
+      <th style="text-align:center" colspan="2"><xsl:value-of select="nombre"/></th>
     </tr>
     </xsl:for-each>
     <tr>
@@ -23,9 +23,6 @@
       <td style="text-align:left"><xsl:value-of select="paso"/></td>
     </tr>
     </xsl:for-each>
-	<tr bgcolor="#5D5D5D">
-		<th style="text-align:center" colspan="2">¿Cómo hacerlo?</th>
-	</tr>
 
   </table>
 </body>
