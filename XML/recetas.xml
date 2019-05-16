@@ -3,7 +3,7 @@
 
 <!DOCTYPE juegos SYSTEM "dtd/recetas.dtd">
 
-<recetas xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="schema/juegos.xsd">
+<recetas xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="schema/recetas.xsd">
 
 	<receta type="boardgame" id="1">
 		<imagen>https://haycosasmuynuestras.com/wp-content/uploads/2017/10/Codorniz-GRANDE.jpg</imagen>
