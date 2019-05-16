@@ -24,7 +24,7 @@
     </tr>
     </xsl:for-each>
 	  	<tr>
-		<th colspan="2"><video src="https://www.youtube.com/watch?v=N8GRKhTV44Y"></video></th>
+		<th colspan="2"><video src="../MULTIMEDIA/receta%20(2).mp4"></video></th>
 	</tr>
 
 
