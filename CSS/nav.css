@@ -4,7 +4,7 @@
 	left: -100%;
 	width: 100%;
 	transition: all 0.4s;
-	border-bottom: 1px solid #fff;
+	border-bottom: 1px solid #000;
 }
 
 .nav a {
