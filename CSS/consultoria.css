@@ -28,6 +28,19 @@
 	padding: 20px;
 }
 
+#consultoria   {
+    background: #5EA32F;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+#consultoria .contenedor    {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
 
 /* Responsive 480px */
 
