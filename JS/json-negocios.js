@@ -85,7 +85,7 @@ function antiguedad(inaugurado) {
 function platos(platos) {
   return `
 <h4>Platos estrellas</h4>
-<ul class="platos-list">
+<ul class="listaPlatos">
 ${platos.map(plato => `<li>${plato}</li>`).join("")}
 </ul>
 `;
