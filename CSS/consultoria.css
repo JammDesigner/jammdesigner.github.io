@@ -41,6 +41,43 @@
     justify-content: center;
 }
 
+#consultoria ul li {
+    float: left;
+    padding: 10px;
+    list-style: none;
+    display: block;
+}
+
+#consultoria ul li a {
+    color: #fff;
+    text-decoration: none;
+    margin: 20px 0px;
+    display: block;
+    border: 1px solid #fff;
+    padding: 10px;
+}
+
+#consultoria ul li a:hover {
+    color: #357AA1;
+    background: #fff;
+    text-decoration: none;
+    margin: 20px 0px;
+    display: block;
+    border: 1px solid #fff;
+    padding: 10px;
+}
+
+#consultoria ul li a:active {
+    color: #fff;
+    background: #357AA1;
+    text-decoration: none;
+    margin: 20px 0px;
+    display: block;
+    border: 1px solid #fff;
+    padding: 10px;
+}
+
+
 
 /* Responsive 480px */
 
