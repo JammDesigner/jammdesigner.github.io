@@ -59,7 +59,7 @@ const infoNegocios = [
     nombre: "El Club Allard",
     especialidad: "Alta cocina",
     platoEstrella: ["Rodaballo entre salicornias", "Rape negro con caldo de las espinas", "Cochinillo confitado de manera tradicional ,con melón y gochu jang"],
-    inaugurado: 2018,
+    inaugurado: 2003,
     foto: "https://media.timeout.com/images/101570675/750/422/image.jpg"
   },
       {
