@@ -54,7 +54,7 @@
 }
 
 
-#app {
+#negocios-json {
     width: 100%;
     margin: auto;
     display: flex;
@@ -65,7 +65,7 @@
 	padding: 20px;
 }
 
-.app-title {
+.titulo-negocios {
     display: none;
 }
 
