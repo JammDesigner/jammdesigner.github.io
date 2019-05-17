@@ -102,8 +102,8 @@ function plantillaNegocios(negocio) {
   `;
 }
 
-document.getElementById("app").innerHTML = `
-  <h1 class="app-title">Partners (${infoNegocios.length} resulados)</h1>
+document.getElementById("negocios-json").innerHTML = `
+  <h1 class="titulo-negocios">Partners (${infoNegocios.length} resulados)</h1>
   ${infoNegocios.map(plantillaNegocios).join("")}
   <p class="footer">Estos ${infoNegocios.length} partners trabajan con nosotros actualmente.</p>
 `;
